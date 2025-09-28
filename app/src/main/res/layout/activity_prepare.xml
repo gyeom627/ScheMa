@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.activity.PrepareActivity">
+
+    <TextView
+        android:id="@+id/tv_event_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="일정 제목" />
+
+    <TextView
+        android:id="@+id/tv_preparation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_event_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        tools:text="출발까지 남은 시간\n00:30:00" />
+
+    <TextView
+        android:id="@+id/tv_travel_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_preparation_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        tools:text="예상 이동 시간: 30분" />
+
+    <TextView
+        android:id="@+id/tv_weather_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_travel_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        tools:text="현재 날씨: 맑음, 25.0°C" />
+
+    <ImageView
+        android:id="@+id/iv_weather_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/tv_weather_info"
+        android:layout_centerHorizontal="true" />
+
+    <TableLayout
+        android:id="@+id/tl_weather_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_weather_icon"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="*" />
+
+    <Button
+        android:id="@+id/btn_prepare_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="준비 완료 및 출발" />
+
+    <Button
+        android:id="@+id/btn_public_transit_prep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_prepare_complete"
+        android:text="대중교통 길찾기 (네이버맵 연동)" />
+
+</RelativeLayout>

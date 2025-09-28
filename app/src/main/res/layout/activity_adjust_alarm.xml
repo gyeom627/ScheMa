@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.activity.AdjustAlarmActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_calculated_alarm_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오전 5:50에 알람이 설정됩니다."
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_travel_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="예상 이동 시간: 30분" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_transport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radio_driving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자동차"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radio_public_transit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="대중교통"
+                android:enabled="false"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <Button android:id="@+id/btn_travel_down" android:layout_width="48dp" android:layout_height="48dp" android:text="-"/>
+            <SeekBar
+                android:id="@+id/seekbar_travel_time"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+            <Button android:id="@+id/btn_travel_up" android:layout_width="48dp" android:layout_height="48dp" android:text="+"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_prep_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="예상 준비 시간: 30분" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <Button android:id="@+id/btn_prep_down" android:layout_width="48dp" android:layout_height="48dp" android:text="-"/>
+            <SeekBar
+                android:id="@+id/seekbar_prep_time"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+            <Button android:id="@+id/btn_prep_up" android:layout_width="48dp" android:layout_height="48dp" android:text="+"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="예상 날씨: 맑음" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="다음"
+        android:background="@drawable/oval_button_background" />
+
+</RelativeLayout>

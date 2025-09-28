@@ -1,0 +1,101 @@
+plugins {
+    id 'com.android.application'
+}
+
+def properties = new Properties()
+if (rootProject.file("../local.properties").exists()) {
+    properties.load(rootProject.file("../local.properties").newDataInputStream())
+} else if (rootProject.file("local.properties").exists()) {
+    properties.load(rootProject.file("local.properties").newDataInputStream())
+}
+
+android {
+    namespace 'com.schema.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.schema.app"
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        def naverMapsClientId = properties.getProperty('naver.map.client.id') ?: ""
+        def naverMapsClientSecret = properties.getProperty('naver.map.client.secret') ?: ""
+        def weatherApiKey = properties.getProperty('weather.api.key') ?: ""
+        //def govAddressApiKey = properties.getProperty('gov.address.api.key') ?: ""
+        //def kakaoNativeAppKey = properties.getProperty('kakao.native.app.key') ?: ""
+
+        buildConfigField "String", "NAVER_MAPS_CLIENT_ID", "\"${naverMapsClientId}\"";
+        buildConfigField "String", "NAVER_MAPS_CLIENT_SECRET", "\"${naverMapsClientSecret}\"";
+        buildConfigField "String", "WEATHER_API_KEY",  "\"${weatherApiKey}\"";
+        // buildConfigField "String", "GOV_ADDRESS_API_KEY", "${govAddressApiKey}"; // 주석 처리됨
+        // buildConfigField "String", "KAKAO_NATIVE_APP_KEY", "${kakaoNativeAppKey}"; // 주석 처리됨
+
+        manifestPlaceholders = [
+                NAVER_MAPS_CLIENT_ID: properties.getProperty("naver.map.client.id"),
+                NAVER_MAPS_CLIENT_SECRET: properties.getProperty("naver.map.client.secret"),
+                WEATHER_API_KEY: properties.getProperty("weather.api.key")
+
+                // KAKAO_NATIVE_APP_KEY: kakaoNativeAppKey // 주석 처리됨
+        ]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+        // CalendarView 라이브러리를 위해 Java 8+ API 디슈가링을 활성화합니다.
+        coreLibraryDesugaringEnabled true
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+        dataBinding true
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
+    // Room
+    def room_version = "2.6.1"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // Lifecycle
+    def lifecycle_version = "2.7.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+
+    // Google Play Services for location
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    // Naver Maps SDK
+    implementation 'com.naver.maps:map-sdk:3.22.0'
+
+    // Social Login
+    implementation 'com.google.android.gms:play-services-auth:21.2.0'
+    implementation 'com.kakao.sdk:v2-user:2.20.1' // Kakao Login
+
+    // Calendar View
+    implementation 'com.kizitonwose.calendar:view:2.9.0'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
+}

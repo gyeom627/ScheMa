@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_debug.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_debug.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_preparation.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_preparation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_weather_thunderstorm.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_weather_thunderstorm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_prepare.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_prepare.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_alarm.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_calendar_day_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\calendar_day_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_calendar_event_dot.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\calendar_event_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_navigation.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_daum_postcode.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_daum_postcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_weather_snow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_weather_snow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_alarm_and_prep.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_alarm_and_prep.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_initial_setup.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_initial_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_oval_button_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\oval_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_weather_rain.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_weather_rain.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_recyclerview_item.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\recyclerview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_alarm_ringing.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_alarm_ringing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_weather_clouds.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_weather_clouds.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_event_detail.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_event_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_weather_mist.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_weather_mist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_calendar_selected_day_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\calendar_selected_day_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_add_event.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_add_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_weather_clear.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_weather_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_calendar_month_header_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\calendar_month_header_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_adjust_alarm.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_adjust_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_past_events.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_past_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\drawable_ic_weather_default.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\drawable\\ic_weather_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_map_address_selector.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_map_address_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-debug-49:\\layout_activity_arrival.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.12\\com.schema.app-main-51:\\layout\\activity_arrival.xml"
+    }
+]

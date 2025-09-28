@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.activity.ArrivalActivity">
+
+    <TextView
+        android:id="@+id/tv_arrival_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="135dp"
+        android:text="도착 완료!"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_back_to_main"
+        android:layout_width="195dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/tv_arrival_message"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="214dp"
+        android:text="메인으로 돌아가기" />
+
+</RelativeLayout>

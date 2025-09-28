@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:keepScreenOn="true"
+    tools:context=".ui.activity.AlarmAndPrepActivity">
+
+    <TextView
+        android:id="@+id/tv_event_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:text="팀 프로젝트 회의" />
+
+    <TextView
+        android:id="@+id/tv_prep_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        tools:text="30:00" />
+
+    <TextView
+        android:id="@+id/tv_countdown_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_prep_countdown"
+        android:layout_centerHorizontal="true"
+        android:text="출발까지 남은 시간" />
+
+    <Button
+        android:id="@+id/btn_stop_vibration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:text="진동 끄기" />
+
+    <Button
+        android:id="@+id/btn_depart_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="바로 출발" />
+
+</RelativeLayout>

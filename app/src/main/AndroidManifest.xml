@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+
+    <application
+        android:name=".GlobalApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScheMa"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.naver.maps.map.NCP_KEY_ID"
+            android:value="${NAVER_MAPS_CLIENT_ID}" />
+        <meta-data
+            android:name="com.naver.maps.map.NCP_KEY_SECRET"
+            android:value="${NAVER_MAPS_CLIENT_SECRET}" />
+
+        <!-- 날씨 API 키를 위한 메타데이터 추가 -->
+        <meta-data
+            android:name="WEATHER_API_KEY"
+            android:value="${WEATHER_API_KEY}" />
+
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activity.InitialSetupActivity"
+            android:label="최초 설정" />
+
+        <activity
+            android:name=".ui.activity.AddEventActivity"
+            android:label="일정 추가" />
+
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:label="설정" />
+
+        <activity
+            android:name=".ui.activity.AdjustAlarmActivity"
+            android:label="알람 시간 조절" />
+
+        <activity
+            android:name=".ui.activity.EventDetailActivity"
+            android:label="일정 상세" />
+
+        <activity
+            android:name=".ui.activity.NavigationActivity"
+            android:label="내비게이션" />
+
+        <activity
+            android:name=".ui.activity.ArrivalActivity"
+            android:label="도착 완료" />
+
+        <activity
+            android:name=".ui.activity.PastEventsActivity"
+            android:label="지난 일정" />
+
+        <activity
+            android:name=".ui.activity.DebugActivity"
+            android:label="디버그 화면" />
+
+        <activity
+            android:name=".ui.activity.AlarmActivity"
+            android:label="알람"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true" />
+
+        <receiver
+            android:name=".receiver.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receiver.PreAlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

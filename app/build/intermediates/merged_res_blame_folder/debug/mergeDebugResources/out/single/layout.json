@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_prepare.xml",
+        "source": "com.schema.app-main-51:/layout/activity_prepare.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_preparation.xml",
+        "source": "com.schema.app-main-51:/layout/activity_preparation.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_login.xml",
+        "source": "com.schema.app-main-51:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_initial_setup.xml",
+        "source": "com.schema.app-main-51:/layout/activity_initial_setup.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_past_events.xml",
+        "source": "com.schema.app-main-51:/layout/activity_past_events.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_arrival.xml",
+        "source": "com.schema.app-main-51:/layout/activity_arrival.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_settings.xml",
+        "source": "com.schema.app-main-51:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_add_event.xml",
+        "source": "com.schema.app-main-51:/layout/activity_add_event.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_map_address_selector.xml",
+        "source": "com.schema.app-main-51:/layout/activity_map_address_selector.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/recyclerview_item.xml",
+        "source": "com.schema.app-main-51:/layout/recyclerview_item.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.schema.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_alarm_ringing.xml",
+        "source": "com.schema.app-main-51:/layout/activity_alarm_ringing.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_alarm.xml",
+        "source": "com.schema.app-main-51:/layout/activity_alarm.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_alarm_and_prep.xml",
+        "source": "com.schema.app-main-51:/layout/activity_alarm_and_prep.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_daum_postcode.xml",
+        "source": "com.schema.app-main-51:/layout/activity_daum_postcode.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_adjust_alarm.xml",
+        "source": "com.schema.app-main-51:/layout/activity_adjust_alarm.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_debug.xml",
+        "source": "com.schema.app-main-51:/layout/activity_debug.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/calendar_day_layout.xml",
+        "source": "com.schema.app-main-51:/layout/calendar_day_layout.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_navigation.xml",
+        "source": "com.schema.app-main-51:/layout/activity_navigation.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/calendar_month_header_layout.xml",
+        "source": "com.schema.app-main-51:/layout/calendar_month_header_layout.xml"
+    },
+    {
+        "merged": "com.schema.app-mergeDebugResources-48:/layout/activity_event_detail.xml",
+        "source": "com.schema.app-main-51:/layout/activity_event_detail.xml"
+    }
+]

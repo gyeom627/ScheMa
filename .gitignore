@@ -1,0 +1,35 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.a_
+*.dex
+*.class
+/build/
+
+# Local configuration file (contains SDK path, API keys, etc.)
+# **절대 공유하면 안 됩니다.**
+local.properties
+
+# IDE files (Android Studio, IntelliJ)
+.idea/
+*.iml
+.gradle/
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+
+# Keystore files (for signing the app)
+# **절대 공유하면 안 됩니다.**
+*.jks
+*.keystore
+
+# Log and temporary files
+*.log
+captures/
+.DS_Store
+
+# Gemini-specific files
+GEMINI.md
+/summary
