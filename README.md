@@ -1,5 +1,5 @@
-https://console.ncloud.com/maps/subscription
-https://openweathermap.org/api
+https://console.ncloud.com/maps/subscription <br>
+https://openweathermap.org/api <br>
 에서 API키를 발급받아 local.properties 파일에
 NAVER_MAPS_API_KEY=여기에_네이버_클라이언트_ID
 NAVER_MAPS_API_SECRET_KEY=여기에_네이버_클라이언트_시크릿
