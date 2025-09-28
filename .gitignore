@@ -16,9 +16,6 @@ local.properties
 *.iml
 .gradle/
 gradle.properties
-gradle/
-gradlew
-gradlew.bat
 
 # Keystore files (for signing the app)
 # **절대 공유하면 안 됩니다.**
